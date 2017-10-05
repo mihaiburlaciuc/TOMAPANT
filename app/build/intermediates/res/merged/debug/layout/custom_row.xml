@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="@color/grey"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Nume camera"
+                android:id="@+id/Nume"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Runde:"
+                android:layout_marginTop="-7dp"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/textView15" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="-30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="5"
+                android:id="@+id/runde"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/buton_lock"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:id="@+id/privata" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0"
+                android:id="@+id/players"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="/"
+                android:id="@+id/nu_trebuia_sa_aiba_id"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="5"
+                android:id="@+id/max_players"
+                android:textSize="30dp" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:text="Vezi"
+                android:id="@+id/Buton"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:id="@+id/e_sa_pacaleasca_match_parentu_de_la_linear_layout"
+                />
+        </LinearLayout>

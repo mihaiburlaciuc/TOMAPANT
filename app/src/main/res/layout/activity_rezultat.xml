@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_joc" >
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/coroana"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Clasament:"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView3"
+        android:textColor="#4400ff"
+        android:textSize="35dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nume:"
+            android:id="@+id/textView4"
+            android:textColor="#4400ff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Punctaj:"
+            android:id="@+id/textView5"
+            android:textColor="#4400ff"
+            android:textSize="30dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ListView
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lista_nume"
+            android:layout_width="200dp" />
+
+        <ListView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lista_punctaj" />
+    </TableRow>
+
+</LinearLayout>

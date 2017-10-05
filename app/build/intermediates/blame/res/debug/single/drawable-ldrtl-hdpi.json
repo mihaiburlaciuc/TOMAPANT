@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-ldrtl-hdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-ldrtl-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-ldrtl-hdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]

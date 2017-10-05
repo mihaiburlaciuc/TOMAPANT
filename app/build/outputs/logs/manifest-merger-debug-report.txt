@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:3:5-26
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:7:5-41:19
+MERGED from [com.android.support:design:22.2.1] /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:12:9-35
+	android:hardwareAccelerated
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:13:9-73
+activity#com.tomapan.MainActivity
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:14:9-24:20
+	android:screenOrientation
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:17:13-49
+	android:label
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:18:13-77
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:15:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:22:27-74
+activity#com.tomapan.Game
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:25:9-27:52
+	android:screenOrientation
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:26:13-44
+activity#com.tomapan.Single
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:28:9-30:52
+	android:screenOrientation
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:29:13-46
+activity#com.tomapan.Multi
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:31:9-33:52
+	android:screenOrientation
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:32:13-45
+activity#com.tomapan.Rooms
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:35:13-45
+activity#com.tomapan.Create
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:37:9-55
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:37:19-52
+activity#com.tomapan.Rezultat
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:38:9-57
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:38:19-54
+activity#com.tomapan.Reguli
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:39:9-55
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:39:19-52
+activity#com.tomapan.BeforeGame
+ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:40:9-68
+	android:name
+		ADDED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml:40:19-56
+uses-sdk
+INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:22.2.1] /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml
+		INJECTED from /home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/AndroidManifest.xml

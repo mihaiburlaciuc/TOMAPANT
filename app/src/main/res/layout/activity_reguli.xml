@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_reguli">
+
+
+    <ScrollView
+        android:layout_marginLeft="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="         Cuvantul TOMAPANT este format din initialele cuvintelor ce formeaza jocul (  T=Tara, O=Oras, M=Munti, A=Ape, P=Plante, A=Animale, N=Nume si T=Total ). Scopul jocului este de a completa fiecare casuta cu un raspuns adecvat cerintei. Astfel, jucatorul va trebui sa completeze fiecare casuta in mod corect pentru a putea opri jocul ( prin butonul stop ); la oprirea jocului, ceilalti participanti nu mai pot scrie cuvinte, iar jocul va trece la runda urmatoare."
+                    android:id="@+id/textView2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="         Punctajul se calculeaza astfel: 0 puncte pentru un raspuns gresit, 5 puncte pentru un raspuns ce se regaseste si la alti jucatori, 10 puncte pentru un raspuns unic, care nu a mai fost scris de alti jucatori. Punctajul obtinut pentru fiecare runda se va afisa la finalul ei. Scorul total, ce va departaja jucatorii, se va afisa la finalul jocului."
+                    android:id="@+id/textView3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="      Sfaturi si cerinte:"
+                    android:id="@+id/textView4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="      Toate cuvintele trebuie scrise fara diacritice."
+                    android:id="@+id/textView5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="      In cadrul cerintelor Munti nu trebuie adaugat cuvantul ce precizeaza forma de relief(Muntii Piatra Craiului, trebuie sa fie completati doar ca Piatra Craiului); regula se aplica si la categoria Ape."
+                    android:id="@+id/textView6" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="      Se recomanda ca in cadrul cerintelor Orase, Munti, Ape sa se completeze cu elemente ce se regasesc pe teritoriul Romaniei."
+                    android:id="@+id/textView8" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="      In cadrul cerintelor Plante si Animale, raspunsurile trebuie date in limba romana."
+                    android:id="@+id/textView9" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="      In cadrul cerintei Nume, trebuie completata casuta doar cu nume romanesti."
+                    android:id="@+id/textView10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="      Daca un raspuns nu este considerat corect, se recomanda incercarea articularii sau nearticularii lui."
+                    android:id="@+id/textView11" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="      Baza de date a cuvintelor este limitata, deci nu va verifica chiar orice raspuns ce poate fi valid ( vezi sfatul de completare cu elemente de pe teritoriul Romaniei )."
+                    android:id="@+id/textView12" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

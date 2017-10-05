@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TOMAPANT</string>
+    <string name="action_settings">Settings</string>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#6afbc1</color>
+    <string name = "reguli1">
+    <![CDATA[
+    <html>
+     <body style="text-align:justify;color:gray;background-color:black;">         Cuvantul TOMAPANT este format din initialele cuvintelor ce formeaza jocul (  T=Tara, O=Oras, M=Munti, A=Ape, P=Plante, A=Animale, N=Nume si T=Total ). Scopul jocului este de a completa fiecare casuta cu un raspuns adecvat cerintei. Astfel, jucatorul va trebui sa completeze fiecare casuta in mod corect pentru a putea opri jocul ( prin butonul stop ); la oprirea jocului, ceilalti participanti nu mai pot scrie cuvinte, iar jocul va trece la runda urmatoare.</string>
+    </body>
+     </html>
+    ]]>
+    </string>
+    <string name = "reguli2"></string>
+</resources>

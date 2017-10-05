@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_joc">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="nume_camera"
+        android:id="@+id/nume_camera"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000dff"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Jucatori:"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000dff"
+        android:textSize="35dp"
+        />
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:id="@+id/lista"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="1dp">
+
+        <ImageButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280dp"
+            android:layout_height="90dp"
+            android:id="@+id/btn_intra"
+            android:background="@drawable/buton_intra"
+            android:onClick="Join" />
+
+        <ImageButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="280dp"
+            android:layout_height="90dp"
+            android:background="@drawable/buton_iesi"
+            android:id="@+id/btn_iesi"
+            android:onClick="Leave" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

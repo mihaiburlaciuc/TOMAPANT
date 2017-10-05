@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/raw/plante.txt",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/res/raw/plante.txt"
+    },
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/raw/nume.txt",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/res/raw/nume.txt"
+    },
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/raw/orase.txt",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/res/raw/orase.txt"
+    },
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/raw/ape.txt",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/res/raw/ape.txt"
+    },
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/raw/animale.txt",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/res/raw/animale.txt"
+    },
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/raw/tari.txt",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/res/raw/tari.txt"
+    },
+    {
+        "merged": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/build/intermediates/res/merged/debug/raw/munti.txt",
+        "source": "/home/vali/Desktop/Android Projects/T.O.M.A.P.A.N./app/src/main/res/raw/munti.txt"
+    }
+]
